@@ -14,7 +14,7 @@ const Home = () => {
     console.log(Photo);
 
     return (
-        <div className='bg-slate-800 flex justify-center items-center flex-col h-screen'>
+        <div className='bg-slate-800 flex justify-center items-center flex-col min-h-screen'>
             <img src={Photo?.hdurl} alt={Photo?.title} className='h-72 shadow-2xl' />
             <h1 className='font-bold text-slate-200 my-5 text-xl lg:text-3xl'>{Photo?.title}</h1>
             <p className='mb-5 text-cyan-500 font-bold'>{Photo?.date}</p>
